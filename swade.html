@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+   <div class="pink-box">
+        <h2>General Info</h2>
+<!-- NAME -->
+        <div class="blue-pill">
+            <span class="blue-label">Name</span>
+            <input type="text"  placeholder="Enter Name Here" class="blue-pill-input" style="width:290px;">
+        </div>
+<!-- RANK -->
+        <div class="blue-pill">
+            <span class="blue-label">Rank</span>
+            <div class="blue-pill-input" style="width:290px;">Novice</div>
+        </div>
+    <div style="flex-direction: row;">
+<!-- Toughness -->
+        <div class="blue-pill">
+            <span class="blue-label">Toughnesss</span>
+            <div class="blue-pill-input" style="width:50px;font-family: Arial, Helvetica, sans-serif;">4(1)</div>
+        </div>
+<!-- Parry -->
+        <div class="blue-pill">
+            <span class="blue-label">Parry</span>
+            <div class="blue-pill-input" style="width:50px;font-family: Arial, Helvetica, sans-serif;">2</div>
+        </div>
+<!-- MONEY -->
+        <div class="blue-pill">
+            <span class="blue-label">Money</span>
+            <input type="text" value="500" class="blue-pill-input">
+        </div>
+<!-- BENNIES -->
+        <div class="blue-pill">
+            <span class="blue-label">Bennies</span>
+            <input type="text" value="3" class="blue-pill-input" style="width:2.25em;">
+            <div class="incriment-controls">
+                <button class="incriment-button plus">+</button>
+                <button class="incriment-button minus">−</button>
+            </div>
+        </div>
+<!-- WOUNDS -->
+        <div class="blue-pill">
+            <span class="blue-label">Wounds</span>
+            <input type="text" value="0" class="blue-pill-input" style="width:2.25em;">
+            <div class="incriment-controls">
+                <button class="incriment-button plus">+</button>
+                <button class="incriment-button minus">−</button>
+            </div>
+        </div>
+<!-- FATIGUE -->
+        <div class="blue-pill">
+            <span class="blue-label">Fatigue</span>
+            <input type="text" value="0" class="blue-pill-input" style="width:2.25em;">
+            <div class="incriment-controls">
+                <button class="incriment-button plus">+</button>
+                <button class="incriment-button minus">−</button>
+            </div>
+        </div>
+
+        
+    </div>  
+    <!-- ADVANCE BUTTON -->
+    <button class="advance-button">Advance</button>      
+</div>
+
+<!-- ATTRIBUTES -->
+    <div class="blue-box">
+        <h2>Attributes</h2>
+<!-- AGILITY -->
+        <div class="pink-pill">
+            <span class="pink-label">Agility</span>
+            <div class="pink-pill-input">d4</div>
+            <div class="incriment-controls">
+                <button class="incriment-button plus">+</button>
+                <button class="incriment-button minus">−</button>
+            </div>
+        </div>
+<!-- SMARTS -->
+        <div class="pink-pill">
+            <span class="pink-label">Smarts</span>
+            <div class="pink-pill-input">d4</div>
+            <div class="incriment-controls">
+                <button class="incriment-button plus">+</button>
+                <button class="incriment-button minus">−</button>
+            </div>
+        </div>
+<!-- SPIRIT -->
+        <div class="pink-pill">
+            <span class="pink-label">Spirit</span>
+            <div class="pink-pill-input">d4</div>
+            <div class="incriment-controls">
+                <button class="incriment-button plus">+</button>
+                <button class="incriment-button minus">−</button>
+            </div>
+        </div>
+<!-- STRENGTH -->
+        <div class="pink-pill">
+            <span class="pink-label">Strength</span>
+            <div class="pink-pill-input">d4</div>
+            <div class="incriment-controls">
+                <button class="incriment-button plus">+</button>
+                <button class="incriment-button minus">−</button>
+            </div>
+        </div>
+<!-- VIGOR -->
+        <div class="pink-pill">
+            <span class="pink-label">Vigor</span>
+            <div class="pink-pill-input" >d4</div>
+            <div class="incriment-controls">
+                <button class="incriment-button plus">+</button>
+                <button class="incriment-button minus">−</button>
+            </div>
+        </div>
+    </div>
+
+<!-- PACE     -->
+    <div class="pink-box">
+        <h2>Pace</h2>
+
+        <div class="blue-pill">
+            <span class="blue-label">Running</span>
+            <div class="blue-pill-input">6</div>
+        </div>
+
+        <div class="blue-pill">
+            <span class="blue-label">Swimming</span>
+            <div class="blue-pill-input" style="width:50px;">3</div>
+        </div>
+
+        <div class="blue-pill">
+            <span class="blue-label">Flying</span>
+            <div class="blue-pill-input">0</div>
+        </div>
+
+        <div class="blue-pill">
+            <span class="blue-label">Burrowing</span>
+            <div class="blue-pill-input" style="width:50px;">0</div>
+        </div>
+    </div>
+
+
+<!-- SKILLS -->
+    <div class="blue-box">
+        <h2>Skills <div class="circle-number-full">12</div></h2>
+<!-- ATHLETICS -->
+        <div>
+        <div class="pink-pill">
+            <span class="pill-initials">Ag</span>
+            <span class="pink-label">Athletics</span>
+            <div class="pink-pill-input">d4</div>
+            <div class="incriment-controls">
+                <button class="incriment-button plus">+</button>
+                <button class="incriment-button minus">−</button>
+            </div>
+        </div>
+        <button class="delete-button">X</button>
+        </div>
+<!-- COMMON KNOWLEDGE -->
+<div>
+    <div class="pink-pill">
+        <span class="pill-initials">Sm</span>
+        <span class="pink-label">Common Knowledge</span>
+        <div class="pink-pill-input">d4</div>
+        <div class="incriment-controls">
+            <button class="incriment-button plus">+</button>
+            <button class="incriment-button minus">−</button>
+        </div>
+    </div>
+    <button class="delete-button">X</button>
+    </div>
+<!-- NOTICE -->
+<div>
+    <div class="pink-pill">
+        <span class="pill-initials">Sm</span>
+        <span class="pink-label">Notice</span>
+        <div class="pink-pill-input">d4</div>
+        <div class="incriment-controls">
+            <button class="incriment-button plus">+</button>
+            <button class="incriment-button minus">−</button>
+        </div>
+    </div>
+    <button class="delete-button">X</button>
+    </div>
+<!-- STEALTH -->
+    <div>
+        <div class="pink-pill">
+            <span class="pill-initials">Ag</span>
+            <span class="pink-label">Stealth</span>
+            <div class="pink-pill-input">d4</div>
+            <div class="incriment-controls">
+                <button class="incriment-button plus">+</button>
+                <button class="incriment-button minus">−</button>
+            </div>
+        </div>
+        <button class="delete-button">X</button>
+        </div>
+        <button class="add-button">Add Skill</button>
+
+    </div>
+
+
+    <div class="pink-box">
+        <h2>Ancestry<div class="circle-number-empty">0</div></h2>
+        <h3>Human</h3>
+        <div class="mini-blue">
+           <h4>Adaptable</h4>
+           <p>The ancestry has great variation among its people and cultures. Characters start with a free Novice Edge of their choice (and must meet all the Edge’s Requirements).</p>
+           <div style="text-align: center; margin: 3px;">
+           <button class="delete-button">X</button>
+           </div>   
+        </div>
+        <button class="add-button">Add Ability</button>
+    </div>
+
+
+    <div class="blue-box">
+        <h2>Equipment</h2>
+
+        <button class="add-button">Add Equipment</button>
+    </div>
+
+    <div class="pink-box">
+        <h2>Edges<div class="circle-number-full" id="edge-points">1</div></h2>
+        <div id="edges"></div>
+        <button class="add-button" id="add-edges">Add Edge</button>
+    </div>
+
+    <div class="blue-box">
+        <h2>Hindrances</h2>
+
+        <button class="add-button">Add Hindrance</button>
+    </div>
+
+    <div class="pink-box">
+        <h2>Weapons</h2>
+
+        <button class="add-button">Add Weapon</button>
+    </div>
+
+
+
+
+<!-- HIDDEN EDGES     -->
+<!-- Hidden Div for Edges -->
+<div id="edges-modal" class="hidden-modal">
+    <div class="modal-content">
+        <h3>Select an Edge</h3>
+        <ul id="edges-list">
+            <!-- Edges will be populated here by JavaScript -->
+        </ul>
+        <button id="close-modal">Close</button>
+    </div>
+</div>
+
+<!-- Overlay -->
+<div id="modal-overlay" class="hidden-overlay"></div>
+
+
+<!-- Button to save the character -->
+<button id="save-character">Save Character</button>
+
+<!-- Input to load a character file -->
+<input type="file" id="load-character" accept=".json">
+
+
+<!-- JavaScript File -->
+<script src="swade.js"></script>
+</body>
+</html>
+

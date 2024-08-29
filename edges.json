@@ -1,0 +1,700 @@
+{
+  "edges": [
+    {
+      "name": "Alertness",
+      "rank": "Novice",
+      "description": "+2 to Notice rolls."
+    },
+    {
+      "name": "Ambidextrous",
+      "rank": "Novice",
+      "description": "Ignore -2 penalty when making Trait rolls with off-hand."
+    },
+    {
+      "name": "Arcane Background (Gifted)",
+      "rank": "Novice",
+      "description": "The character has innate abilities that don't fit into the usual tropes of magic, miracles, or psionics.",
+      "powerNumber": 1,
+      "ppMax": 15,
+      "arcaneBackground": "Gifted"
+    },
+    {
+      "name": "Arcane Background (Magic)",
+      "rank": "Novice",
+      "description": "Magicians draw on raw supernatural energy to fuel their eldritch powers.",
+      "powerNumber": 3,
+      "ppMax": 10,
+      "arcaneBackground": "Magic"
+    },
+    {
+      "name": "Arcane Background (Miracles)",
+      "rank": "Novice",
+      "description": "The character draws power from a divine presence, such as gods, nature, or spirits.",
+      "powerNumber": 3,
+      "ppMax": 10,
+      "arcaneBackground": "Miracles"
+    },
+    {
+      "name": "Arcane Background (Psionics)",
+      "rank": "Novice",
+      "description": "Psionicists tap into their own mental energy to manipulate matter and read minds.",
+      "powerNumber": 3,
+      "ppMax": 10,
+      "arcaneBackground": "Psionics"
+    },
+    {
+      "name": "Arcane Background (Weird Science)",
+      "rank": "Novice",
+      "description": "Weird scientists use strange and powerful inventions beyond the normal technological level.",
+      "powerNumber": 2,
+      "ppMax": 15,
+      "arcaneBackground": "Weird Science"
+    },
+    {
+      "name": "Arcane Resistance",
+      "rank": "Novice",
+      "description": "Enemy arcane skills targeting the hero suffer a -2 penalty; magical damage is reduced by 2."
+    },
+    {
+      "name": "Improved Arcane Resistance",
+      "rank": "Novice",
+      "description": "As Arcane Resistance except penalty is increased to -4 and magical damage is reduced by 4."
+    },
+    {
+      "name": "Aristocrat",
+      "rank": "Novice",
+      "description": "+2 to Common Knowledge and networking with upper class."
+    },
+    {
+      "name": "Attractive",
+      "rank": "Novice",
+      "description": "+1 to Performance and Persuasion rolls. (+1 point added to Skill Points for you to add to these skills)",
+      "skills": 1
+    },
+    {
+      "name": "Very Attractive",
+      "rank": "Novice",
+      "description": "+2 to Performance and Persuasion rolls.(+1 point added to Skill Points for you to add to these skills)",
+      "skills": 1
+    },
+    {
+      "name": "Berserk",
+      "rank": "Novice",
+      "description": "After being Shaken or Wounded, melee attacks must be Wild Attacks, +1 die type to Strength, +2 to Toughness, ignore one level of Wound penalties, Critical Failure on Fighting roll hits random target. Take Fatigue after every five consecutive rounds, may choose to end rage with Smarts roll -2."
+    },
+    {
+      "name": "Brave",
+      "rank": "Novice",
+      "description": "+2 to Fear checks and -2 to rolls on the Fear Table."
+    },
+    {
+      "name": "Brawny",
+      "rank": "Novice",
+      "description": "Size (and therefore Toughness) +1. Treat Strength as one die type higher for Encumbrance and Minimum Strength to use weapons, armor, or equipment.",
+      "toughness": 1
+    },
+    {
+      "name": "Brute",
+      "rank": "Novice",
+      "description": "Link Athletics to Strength instead of Agility (including resistance). Short Range of any thrown item increased by +1. Double that for the adjusted Medium Range, and double again for Long Range."
+    },
+    {
+      "name": "Charismatic",
+      "rank": "Novice",
+      "description": "Free reroll when using Persuasion."
+    },
+    {
+      "name": "Elan",
+      "rank": "Novice",
+      "description": "+2 when spending a Benny to reroll a Trait roll."
+    },
+    {
+      "name": "Fame",
+      "rank": "Novice",
+      "description": "+1 to Persuasion rolls when recognized (Common Knowledge), double usual fee for Performance."
+    },
+    {
+      "name": "Famous",
+      "rank": "Seasoned",
+      "description": "+2 to Persuasion when recognized, 5x or more usual fee for Performance."
+    },
+    {
+      "name": "Fast Healer",
+      "rank": "Novice",
+      "description": "+2 Vigor when rolling for natural healing; check every 3 days."
+    },
+    {
+      "name": "Fleet-Footed",
+      "rank": "Novice",
+      "description": "Pace +2, increase running die one step.",
+      "running": 2
+    },
+    {
+      "name": "Linguist",
+      "rank": "Novice",
+      "description": "Character has d6 in languages equal to half her Smarts die.",
+      "skills": "(character.attributes.smarts.die + character.attributes.smarts.bonus) / 2"
+    },
+    {
+      "name": "Luck",
+      "rank": "Novice",
+      "description": "+1 Benny at the start of each session."
+    },
+    {
+      "name": "Great Luck",
+      "rank": "Novice",
+      "description": "+2 Bennies at the start of each session."
+    },
+    {
+      "name": "Quick",
+      "rank": "Novice",
+      "description": "The hero may discard and redraw Action Cards of 5 or lower."
+    },
+    {
+      "name": "Rich",
+      "rank": "Novice",
+      "description": "Character starts with three times the starting funds and a $150K annual salary."
+    },
+    {
+      "name": "Filthy Rich",
+      "rank": "Novice",
+      "description": "Five times starting funds and $500K average salary."
+    },
+    {
+      "name": "Block",
+      "rank": "Seasoned",
+      "description": "+1 Parry, ignore 1 point of Gang Up bonus.",
+      "parry": 1
+    },
+    {
+      "name": "Improved Block",
+      "rank": "Veteran",
+      "description": "+2 Parry, ignore 2 points of Gang Up bonus.",
+      "parry": 1
+    },
+    {
+      "name": "Brawler",
+      "rank": "Novice",
+      "description": "Toughness +1, add d4 to damage from fists; or increase it a die type if combined with Martial Artist, Claws, or similar abilities.",
+      "toughness": 1
+    },
+    {
+      "name": "Bruiser",
+      "rank": "Seasoned",
+      "description": "Increase unarmed Strength damage a die type and Toughness another +1.",
+      "toughness": 1
+    },
+    {
+      "name": "Calculating",
+      "rank": "Novice",
+      "description": "Ignore up to 2 points of penalties on one action with an Action Card of Five or less."
+    },
+    {
+      "name": "Combat Reflexes",
+      "rank": "Seasoned",
+      "description": "+2 Spirit to recover from being Shaken or Stunned."
+    },
+    {
+      "name": "Counterattack",
+      "rank": "Seasoned",
+      "description": "Free attack against one foe per turn who failed a Fighting roll."
+    },
+    {
+      "name": "Improved Counterattack",
+      "rank": "Veteran",
+      "description": "As Counterattack, but against three failed attacks per turn."
+    },
+    {
+      "name": "Dead Shot",
+      "rank": "Wild Card, Novice",
+      "description": "On first successful Athletics (throwing) or Shooting roll, double damage when dealt a Joker."
+    },
+    {
+      "name": "Dodge",
+      "rank": "Seasoned",
+      "description": "-2 to be hit by ranged attacks."
+    },
+    {
+      "name": "Improved Dodge",
+      "rank": "Seasoned",
+      "description": "+2 to Evasion totals."
+    },
+    {
+      "name": "Double Tap",
+      "rank": "Seasoned",
+      "description": "+1 to hit and damage when firing no more than RoF 1 per action."
+    },
+    {
+      "name": "Extraction",
+      "rank": "Novice",
+      "description": "One adjacent foe doesn't get a free attack when you withdraw from close combat."
+    },
+    {
+      "name": "Improved Extraction",
+      "rank": "Seasoned",
+      "description": "Three adjacent foes don't get free attacks when you withdraw from combat."
+    },
+    {
+      "name": "Feint",
+      "rank": "Novice",
+      "description": "You may choose to make foe resist with Smarts instead of Agility during a Fighting Test."
+    },
+    {
+      "name": "First Strike",
+      "rank": "Novice",
+      "description": "Free Fighting attack once per round when foe moves within Reach."
+    },
+    {
+      "name": "Improved First Strike",
+      "rank": "Heroic",
+      "description": "Free Fighting attack against up to three foes when they move within Reach."
+    },
+    {
+      "name": "Free Runner",
+      "rank": "Novice",
+      "description": "Ignore Difficult Ground and add +2 to Athletics in foot chases and Athletics (climbing).",
+      "climb": 2
+    },
+    {
+      "name": "Frenzy",
+      "rank": "Seasoned",
+      "description": "Roll a second Fighting die in one melee attack. Limited action."
+    },
+    {
+      "name": "Improved Frenzy",
+      "rank": "Veteran",
+      "description": "Roll a third Fighting die in one melee attack. Limited action."
+    },
+    {
+      "name": "Giant Killer",
+      "rank": "Veteran",
+      "description": "+1d6 damage vs. creatures three Sizes larger or more."
+    },
+    {
+      "name": "Hard to Kill",
+      "rank": "Novice",
+      "description": "Ignore Wound penalties when making Vigor rolls to avoid Bleeding Out."
+    },
+    {
+      "name": "Harder to Kill",
+      "rank": "Veteran",
+      "description": "Roll a die if the character perishes. On an even roll he's Incapacitated but survives somehow."
+    },
+    {
+      "name": "Improvisational Fighter",
+      "rank": "Seasoned",
+      "description": "Ignore -2 penalty when attacking with improvised weapons."
+    },
+    {
+      "name": "Iron Jaw",
+      "rank": "Novice",
+      "description": "+2 to Soak and Vigor rolls to avoid Knockout Blows."
+    },
+    {
+      "name": "Killer Instinct",
+      "rank": "Seasoned",
+      "description": "The hero gets a free reroll in any opposed Test he initiates."
+    },
+    {
+      "name": "Level Headed",
+      "rank": "Seasoned",
+      "description": "Draw an additional Action Card each round in combat and choose which one to use."
+    },
+    {
+      "name": "Improved Level Headed",
+      "rank": "Seasoned",
+      "description": "Draw two additional Action Cards each round in combat and choose which one to use."
+    },
+    {
+      "name": "Marksman",
+      "rank": "Seasoned",
+      "description": "Ignore up to 2 points of penalties from Range, Cover, Called Shot, Scale, or Speed; or add +1 to first Athletics (throwing) or Shooting roll. Character may not move or fire greater than RoF 1."
+    },
+    {
+      "name": "Martial Artist",
+      "rank": "Novice",
+      "description": "Unarmed Fighting +1, fists and feet count as Natural Weapons, add d4 damage die to unarmed Fighting attacks (or increase die a step if you already have it)."
+    },
+    {
+      "name": "Martial Warrior",
+      "rank": "Seasoned",
+      "description": "Unarmed Fighting +2, increase damage die type a step."
+    },
+    {
+      "name": "Mighty Blow",
+      "rank": "Wild Card, Novice",
+      "description": "On first successful Fighting roll, double damage when dealt a Joker."
+    },
+    {
+      "name": "Nerves of Steel",
+      "rank": "Novice",
+      "description": "Ignore one level of Wound penalties."
+    },
+    {
+      "name": "Improved Nerves of Steel",
+      "rank": "Novice",
+      "description": "Ignore up to two levels of Wound penalties."
+    },
+    {
+      "name": "No Mercy",
+      "rank": "Seasoned",
+      "description": "+2 damage when spending a Benny to reroll damage."
+    },
+    {
+      "name": "Rapid Fire",
+      "rank": "Seasoned",
+      "description": "Increase RoF by 1 for one Shooting attack per turn."
+    },
+    {
+      "name": "Improved Rapid Fire",
+      "rank": "Veteran",
+      "description": "Increase RoF by 1 for up to two Shooting attacks per turn."
+    },
+    {
+      "name": "Rock and Roll!",
+      "rank": "Seasoned",
+      "description": "Ignore the Recoil penalty when firing weapons with a RoF of 2 or more. Character may not move."
+    },
+    {
+      "name": "Steady Hands",
+      "rank": "Novice",
+      "description": "Ignore Unstable Platform penalty; reduce running penalty to -1.",
+      "running": -1
+    },
+    {
+      "name": "Sweep",
+      "rank": "Novice",
+      "description": "Fighting roll with two-handed weapon (-2 without) to hit all targets in weapon's Reach. Limited action."
+    },
+    {
+      "name": "Improved Sweep",
+      "rank": "Veteran",
+      "description": "As above, but attack can avoid allies. Limited action."
+    },
+    {
+      "name": "Trademark Weapon",
+      "rank": "Novice",
+      "description": "+1 to Athletics (throwing), Fighting, or Shooting total with a specific weapon; +1 Parry while weapon is readied. (You will have to create a custom weapon)"
+    },
+    {
+      "name": "Improved Trademark Weapon",
+      "rank": "Seasoned",
+      "description": "The attack and Parry bonus increases to +2.(You will have to create a custom weapon)"
+    },
+    {
+      "name": "Two-Fisted",
+      "rank": "Novice",
+      "description": "Make one extra Fighting roll with a second melee weapon in the off-hand at no Multi-Action penalty."
+    },
+    {
+      "name": "Two-Gun Kid",
+      "rank": "Novice",
+      "description": "Make one extra Shooting (or Athletics (throwing)) roll with a second ranged weapon in the off-hand at no Multi-Action penalty."
+    },
+    {
+      "name": "Artificer",
+      "rank": "Seasoned",
+      "description": "Allows user to create Arcane Devices."
+    },
+    {
+      "name": "Channeling",
+      "rank": "Seasoned",
+      "description": "Reduce Power Point cost by 1 with a raise on the activation roll."
+    },
+    {
+      "name": "Concentration",
+      "rank": "Seasoned",
+      "description": "Double Duration of non-Instant powers."
+    },
+    {
+      "name": "Extra Effort",
+      "rank": "Seasoned",
+      "description": "Increase Focus by +1 for 1 Power Point or +2 for 3 Power Points."
+    },
+    {
+      "name": "Gadgeteer",
+      "rank": "Seasoned",
+      "description": "Spend 3 Power Points to create a device that replicates another power."
+    },
+    {
+      "name": "Holy/Unholy Warrior",
+      "rank": "Seasoned",
+      "description": "Add +1 to +4 to Soak rolls for each Power Point spent."
+    },
+    {
+      "name": "Mentalist",
+      "rank": "Seasoned",
+      "description": "+2 to opposed Psionics rolls."
+    },
+    {
+      "name": "New Powers",
+      "rank": "Novice",
+      "description": "Your character knows two new powers.",
+      "powerNumber": 2
+    },
+    {
+      "name": "Power Points",
+      "rank": "Novice",
+      "description": "Gain 5 additional Power Points, no more than once per Rank.",
+      "ppMin": 5
+    },
+    {
+      "name": "Power Surge",
+      "rank": "Wild Card, Novice",
+      "description": "Recover 10 Power Points when dealt a Joker in combat."
+    },
+    {
+      "name": "Rapid Recharge",
+      "rank": "Seasoned",
+      "description": "Recover 10 Power Points per hour."
+    },
+    {
+      "name": "Improved Rapid Recharge",
+      "rank": "Veteran",
+      "description": "Recover 20 Power Points per hour."
+    },
+    {
+      "name": "Soul Drain",
+      "rank": "Seasoned",
+      "description": "Recover 5 Power Points for a level of Fatigue."
+    },
+    {
+      "name": "Wizard",
+      "rank": "Seasoned",
+      "description": "Spend 1 extra Power Point to change a spell's Trapping."
+    },
+    {
+      "name": "Ace",
+      "rank": "Novice",
+      "description": "Character may spend Bennies to Soak damage for his vehicle and ignores up to 2 points of penalties."
+    },
+    {
+      "name": "Acrobat",
+      "rank": "Novice",
+      "description": "Free reroll on acrobatic Athletics attempts."
+    },
+    {
+      "name": "Combat Acrobat",
+      "rank": "Seasoned",
+      "description": "-1 to hit with ranged and melee attacks."
+    },
+    {
+      "name": "Assassin",
+      "rank": "Novice",
+      "description": "+2 to damage foes when Vulnerable or assassin has The Drop."
+    },
+    {
+      "name": "Investigator",
+      "rank": "Novice",
+      "description": "+2 to Research and certain types of Notice rolls."
+    },
+    {
+      "name": "Jack-of-all-Trades",
+      "rank": "Novice",
+      "description": "Gain d4 in a skill (or d6 with a raise) until replaced."
+    },
+    {
+      "name": "McGyver",
+      "rank": "Novice",
+      "description": "Quickly create improvised devices from scraps."
+    },
+    {
+      "name": "Mr. Fix It",
+      "rank": "Novice",
+      "description": "+2 to Repair rolls, half the time required with a raise."
+    },
+    {
+      "name": "Scholar",
+      "rank": "Novice",
+      "description": "+2 to any one \"knowledge\" skill."
+    },
+    {
+      "name": "Soldier",
+      "rank": "Novice",
+      "description": "Strength is one die type higher for Encumbrance and Min Str. Reroll Vigor rolls when resisting environmental Hazards."
+    },
+    {
+      "name": "Thief",
+      "rank": "Novice",
+      "description": "+1 to Thievery, Athletics rolls made to climb, and Stealth in urban environments."
+    },
+    {
+      "name": "Woodsman",
+      "rank": "Novice",
+      "description": "+2 to Survival and Stealth in the wilds."
+    },
+    {
+      "name": "Bolster",
+      "rank": "Novice",
+      "description": "May remove Distracted or Vulnerable state after a Test."
+    },
+    {
+      "name": "Common Bond",
+      "rank": "Wild Card, Novice",
+      "description": "The hero may freely give her Bennies to others."
+    },
+    {
+      "name": "Connections",
+      "rank": "Novice",
+      "description": "Contacts provide aid or other favors once per session."
+    },
+    {
+      "name": "Humiliate",
+      "rank": "Novice",
+      "description": "Free reroll when making Taunt rolls."
+    },
+    {
+      "name": "Menacing",
+      "rank": "Novice",
+      "description": "+2 to Intimidation."
+    },
+    {
+      "name": "Provoke",
+      "rank": "Novice",
+      "description": "May \"provoke\" foes with a raise on a Taunt roll. See text."
+    },
+    {
+      "name": "Rabble-Rouser",
+      "rank": "Seasoned",
+      "description": "Affect all foes in a Medium Blast Template with an Intimidation or Taunt Test. Limited action."
+    },
+    {
+      "name": "Reliable",
+      "rank": "Novice",
+      "description": "Free reroll when making Support rolls."
+    },
+    {
+      "name": "Retort",
+      "rank": "Novice",
+      "description": "A raise when resisting a Taunt or Intimidation attack makes the foe Distracted."
+    },
+    {
+      "name": "Streetwise",
+      "rank": "Novice",
+      "description": "+2 to Common Knowledge and criminal networking."
+    },
+    {
+      "name": "Strong Willed",
+      "rank": "Novice",
+      "description": "+2 to resist Smarts or Spirit-based Tests."
+    },
+    {
+      "name": "Iron Will",
+      "rank": "Seasoned",
+      "description": "The bonus now applies to resisting and recovery from powers."
+    },
+    {
+      "name": "Work the Room",
+      "rank": "Novice",
+      "description": "Roll a second die when Supporting via Performance or Persuasion and apply result to additional ally. Limited action."
+    },
+    {
+      "name": "Work the Crowd",
+      "rank": "Seasoned",
+      "description": "As above, but roll a third die. Limited action."
+    },
+    {
+      "name": "Beast Bond",
+      "rank": "Novice",
+      "description": "The hero may spend Bennies for animals under her control."
+    },
+    {
+      "name": "Beast Master",
+      "rank": "Novice",
+      "description": "Animals like your hero and he has a pet of some sort. See text."
+    },
+    {
+      "name": "Champion",
+      "rank": "Novice",
+      "description": "+2 damage vs. supernaturally evil creatures."
+    },
+    {
+      "name": "Chi",
+      "rank": "Veteran",
+      "description": "Once per combat, reroll failed attack, make enemy reroll successful attack, or add +d6 to unarmed Fighting attack."
+    },
+    {
+      "name": "Danger Sense",
+      "rank": "Novice",
+      "description": "Notice roll at +2 to sense ambushes or similar events."
+    },
+    {
+      "name": "Healer",
+      "rank": "Novice",
+      "description": "+2 to Healing rolls, magical or otherwise."
+    },
+    {
+      "name": "Liquid Courage",
+      "rank": "Novice",
+      "description": "Alcohol increases Vigor a die type and ignores one level of Wound penalty; -1 to Agility, Smarts, and related skills."
+    },
+    {
+      "name": "Scavenger",
+      "rank": "Novice",
+      "description": "May find a needed item once per encounter."
+    },
+    {
+      "name": "Followers",
+      "rank": "Wild Card, Legendary",
+      "description": "The hero has five followers."
+    },
+    {
+      "name": "Professional (Attribute)",
+      "rank": "Legendary",
+      "description": "The character's Trait and its limit increases one step.",
+      "attributes": 1
+    },
+    {
+      "name": "Professional (Skill)",
+      "rank": "Legendary",
+      "description": "The character's Trait and its limit increases one step.",
+      "skills": 1
+    },
+    {
+      "name": "Expert (Attribute)",
+      "rank": "Legendary",
+      "description": "The character's Trait and its limit increases one step.",
+      "attributes": 1
+    },
+    {
+      "name": "Expert (Skill)",
+      "rank": "Legendary",
+      "description": "The character's Trait and its limit increases one step.",
+      "skills": 1
+    },
+    {
+      "name": "Master",
+      "rank": "Wild Card, Legendary",
+      "description": "The character's Wild Die is a d10 with a chosen Trait."
+    },
+    {
+      "name": "Sidekick",
+      "rank": "Wild Card, Legendary",
+      "description": "The character gains a Wild Card sidekick."
+    },
+    {
+      "name": "Tough as Nails",
+      "rank": "Legendary",
+      "description": "The hero can take four Wounds before being Incapacitated.",
+      "woundMax": 1
+    },
+    {
+      "name": "Tougher than Nails",
+      "rank": "Legendary",
+      "description": "The hero can take five Wounds before being Incapacitated.",
+      "woundMax": 1
+    },
+    {
+      "name": "Weapon Master",
+      "rank": "Legendary",
+      "description": "Parry increases by +1 and Fighting bonus damage die is d8.",
+      "parry": 1
+    },
+    {
+      "name": "Master of Arms",
+      "rank": "Legendary",
+      "description": "Parry increases another +1 and Fighting bonus damage die is d10.",
+      "parry": 1
+    }
+  ]
+}

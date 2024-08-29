@@ -1,0 +1,626 @@
+{
+  "weapons": [
+    {
+      "name": "Axe, Hand",
+      "damage": "Str+d6",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Axe, Battle",
+      "damage": "Str+d8",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Axe, Great",
+      "damage": "Str+d10",
+      "ap": 2,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": -1,
+      "notes": "Two hands"
+    },
+    {
+      "name": "Club, Light",
+      "damage": "Str+d4",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "A sign of low status or thuggery"
+    },
+    {
+      "name": "Club, Heavy",
+      "damage": "Str+d6",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "A sign of low status or thuggery"
+    },
+    {
+      "name": "Dagger/Knife",
+      "damage": "Str+d4",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Flail",
+      "damage": "Str+d6",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "Ignores shield bonus"
+    },
+    {
+      "name": "Halberd",
+      "damage": "Str+d8",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "Reach 1, two hands"
+    },
+    {
+      "name": "Katana",
+      "damage": "Str+d6+1",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "Two hands"
+    },
+    {
+      "name": "Lance",
+      "damage": "Str+d8",
+      "ap": 2,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "AP 2 when charging, Reach 2, only usable in mounted combat"
+    },
+    {
+      "name": "Mace",
+      "damage": "Str+d6",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Maul",
+      "damage": "Str+d10",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "Two hands, +2 damage to break objects"
+    },
+    {
+      "name": "Pike",
+      "damage": "Str+d8",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "Reach 2, two hands"
+    },
+    {
+      "name": "Rapier",
+      "damage": "Str+d4",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 1,
+      "notes": "—"
+    },
+    {
+      "name": "Spear",
+      "damage": "Str+d6",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 1,
+      "notes": "Reach 1, Parry +1 if used two-handed"
+    },
+    {
+      "name": "Staff",
+      "damage": "Str+d4",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 1,
+      "notes": "Parry +1, Reach 1, two hands"
+    },
+    {
+      "name": "Sword, Great",
+      "damage": "Str+d10",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "Two hands"
+    },
+    {
+      "name": "Sword, Long",
+      "damage": "Str+d8",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "Basic swords and scimitars"
+    },
+    {
+      "name": "Sword, Short",
+      "damage": "Str+d6",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "Includes cavalry sabers"
+    },
+    {
+      "name": "Warhammer",
+      "damage": "Str+d6",
+      "ap": 1,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "Spiked, AP 1"
+    },
+    {
+      "name": "Bangstick",
+      "damage": "3d6",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "A shotgun shell on a stick used in melee; must be reloaded with a fresh shell (one action)"
+    },
+    {
+      "name": "Bayonet",
+      "damage": "Str+d4",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "Str+d6 and Parry +1 when attached to a rifle, Reach 1, two hands"
+    },
+    {
+      "name": "Billy Club/Baton",
+      "damage": "Str+d4",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "Often carried by law enforcement"
+    },
+    {
+      "name": "Brass Knuckles",
+      "damage": "Str+d4",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "Do not count as a weapon for Unarmed Defender"
+    },
+    {
+      "name": "Chainsaw",
+      "damage": "2d6+4",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "Critical Failure hits the user"
+    },
+    {
+      "name": "Switchblade",
+      "damage": "Str+d4",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "-2 to be Noticed if hidden"
+    },
+    {
+      "name": "Survival Knife",
+      "damage": "Str+d4",
+      "ap": 0,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "Basic tools in handle add +1 to Survival rolls"
+    },
+    {
+      "name": "Molecular Knife",
+      "damage": "Str+d4+2",
+      "ap": 2,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "Cannot be thrown"
+    },
+    {
+      "name": "Molecular Sword",
+      "damage": "Str+d8+2",
+      "ap": 4,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Laser Sword",
+      "damage": "Str+d6+8",
+      "ap": 12,
+      "range": "melee",
+      "rateOfFire": 0,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Axe, Throwing",
+      "damage": "Str+d6",
+      "ap": 0,
+      "range": "3/6/12",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Bow",
+      "damage": "2d6",
+      "ap": 0,
+      "range": "12/24/48",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Crossbow (Hand Drawn)",
+      "damage": "2d6",
+      "ap": 2,
+      "range": "10/20/40",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "Hand-drawn."
+    },
+    {
+      "name": "Crossbow, Heavy",
+      "damage": "2d8",
+      "ap": 2,
+      "range": "15/30/60",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "Requires a windlass to load. Reload 2."
+    },
+    {
+      "name": "Dagger/Knife",
+      "damage": "Str+d4",
+      "ap": 0,
+      "range": "3/6/12",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Long Bow",
+      "damage": "2d6",
+      "ap": 1,
+      "range": "15/30/60",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Net (Weighted)",
+      "damage": "—",
+      "ap": 0,
+      "range": "3/6/12",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "Entangles the target. Hardness 6, vulnerable only to cutting attacks."
+    },
+    {
+      "name": "Sling",
+      "damage": "Str+d4",
+      "ap": 0,
+      "range": "4/8/16",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "Athletics (throwing)"
+    },
+    {
+      "name": "Spear/Javelin",
+      "damage": "Str+d6",
+      "ap": 0,
+      "range": "3/6/12",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Compound Bow",
+      "damage": "Str+d6",
+      "ap": 1,
+      "range": "12/24/48",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Crossbow",
+      "damage": "2d6",
+      "ap": 2,
+      "range": "15/30/60",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Flintlock Pistol",
+      "damage": "2d6+1",
+      "ap": 0,
+      "range": "5/10/20",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "Reload 3."
+    },
+    {
+      "name": "Brown Bess Musket",
+      "damage": "2d8",
+      "ap": 0,
+      "range": "10/20/40",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "Reload 3."
+    },
+    {
+      "name": "Blunderbuss",
+      "damage": "1–3d6",
+      "ap": 0,
+      "range": "10/20/40",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "Treat as Shotgun. Reload 3."
+    },
+    {
+      "name": "Kentucky Rifle",
+      "damage": "2d8",
+      "ap": 2,
+      "range": "15/30/60",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "Tight rifling requires Reload 4."
+    },
+    {
+      "name": "Springfield Model 1861",
+      "damage": "2d8",
+      "ap": 0,
+      "range": "15/30/60",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "Reload 4."
+    },
+    {
+      "name": "Derringer (.41)",
+      "damage": "2d4",
+      "ap": 0,
+      "range": "3/6/12",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "-2 to be Noticed if hidden"
+    },
+    {
+      "name": "Police Revolver (.38)",
+      "damage": "2d6",
+      "ap": 0,
+      "range": "10/20/40",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Colt Peacemaker (.45)",
+      "damage": "2d6+1",
+      "ap": 1,
+      "range": "12/24/48",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Smith & Wesson (.357)",
+      "damage": "2d6+1",
+      "ap": 1,
+      "range": "12/24/48",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Colt 1911 (.45)",
+      "damage": "2d6+1",
+      "ap": 1,
+      "range": "12/24/48",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Desert Eagle (.50)",
+      "damage": "2d8",
+      "ap": 2,
+      "range": "15/30/60",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Glock (9mm)",
+      "damage": "2d6",
+      "ap": 1,
+      "range": "12/24/48",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Ruger (.22)",
+      "damage": "2d4",
+      "ap": 0,
+      "range": "10/20/40",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "H&K MP5 (9mm)",
+      "damage": "2d6",
+      "ap": 1,
+      "range": "12/24/48",
+      "rateOfFire": 3,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Tommy Gun (.45)",
+      "damage": "2d6+1",
+      "ap": 1,
+      "range": "12/24/48",
+      "rateOfFire": 3,
+      "parry": 0,
+      "notes": "May use a 50-round drum (increases weight by 2 lbs, each drum costs $50)"
+    },
+    {
+      "name": "Uzi (9mm)",
+      "damage": "2d6",
+      "ap": 1,
+      "range": "12/24/48",
+      "rateOfFire": 3,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Browning Automatic Rifle (BAR) (.30-06)",
+      "damage": "2d8",
+      "ap": 2,
+      "range": "20/40/60",
+      "rateOfFire": 3,
+      "parry": 0,
+      "notes": "Uses magazines, one action to reload instead of the usual two."
+    },
+    {
+      "name": "Gatling (.45)",
+      "damage": "2d8",
+      "ap": 2,
+      "range": "24/48/96",
+      "rateOfFire": 3,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Minigun (7.62mm)",
+      "damage": "2d8+1",
+      "ap": 2,
+      "range": "30/60/120",
+      "rateOfFire": 5,
+      "parry": 0,
+      "notes": "Minimum Rate of Fire 3, requires backpack harness with ammo (weighs an additional 85 pounds when full, carries 4000 linked rounds)."
+    },
+    {
+      "name": "M2 Browning (.50 Cal)",
+      "damage": "2d10",
+      "ap": 4,
+      "range": "50/100/200",
+      "rateOfFire": 3,
+      "parry": 0,
+      "notes": "Heavy Weapon."
+    },
+    {
+      "name": "Double-Barrel",
+      "damage": "1–3d6",
+      "ap": 0,
+      "range": "12/24/48",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Pump Action",
+      "damage": "1–3d6",
+      "ap": 0,
+      "range": "12/24/48",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Sawed-Off DB",
+      "damage": "1–3d6",
+      "ap": 0,
+      "range": "5/10/20",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Streetsweeper",
+      "damage": "1–3d6",
+      "ap": 0,
+      "range": "12/24/48",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Laser Pistol",
+      "damage": "2d6",
+      "ap": 2,
+      "range": "15/30/60",
+      "rateOfFire": 1,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Laser SMG",
+      "damage": "2d6",
+      "ap": 2,
+      "range": "15/30/60",
+      "rateOfFire": 4,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Laser Rifle",
+      "damage": "3d6",
+      "ap": 2,
+      "range": "30/60/120",
+      "rateOfFire": 3,
+      "parry": 0,
+      "notes": "—"
+    },
+    {
+      "name": "Gatling Laser",
+      "damage": "3d6+4",
+      "ap": 2,
+      "range": "50/100/200",
+      "rateOfFire": 4,
+      "parry": 0,
+      "notes": "—"
+    }
+
+  ]
+}

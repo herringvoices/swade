@@ -1,0 +1,356 @@
+{
+    "ancestries": [
+        {
+            "value": 2,
+            "name": "Adaptable",
+            "notes": "The ancestry has great variation among its people and cultures. Characters start with a free Novice Edge of their choice (and must meet all the Edge’s Requirements).",
+            "edges": 1
+          },
+          {
+            "value": 5,
+            "name": "Additional Action",
+            "notes": "The being has additional appendages, enhanced reflexes, or exceptional eye-hand coordination. May ignore 2 points of Multi-Action penalties each turn."
+          },
+          {
+            "value": 1,
+            "name": "Aquatic (1)",
+            "notes": "The character is semi-aquatic and can hold their breath for 15 minutes before checking for drowning."
+          },
+          {
+            "value": 2,
+            "name": "Aquatic (2)",
+            "notes": "The character is fully aquatic, cannot drown in oxygenated liquid, and moves their full Pace when swimming.",
+            "swimming": "character.derived.pace.running"
+          },
+          {
+            "value": 1,
+            "name": "Armor",
+            "notes": "The species has a thick hide or scales, granting Armor +2 each time it is taken (up to 3 times).",
+            "armor": 2
+          },
+          {
+            "value": 2,
+            "name": "Attribute Increase",
+            "notes": "The species increases a particular attribute (Agility, Smarts, Spirit, Strength, or Vigor) one die type during character creation, and this increases the Trait's maximum by one as well.",
+            "attributes": 1
+          },
+          {
+            "value": 1,
+            "name": "Bite",
+            "notes": "The species has fangs that cause Strength+d4 damage."
+          },
+          {
+            "value": 1,
+            "name": "Burrowing",
+            "notes": "The species can burrow into loose earth and move at half their normal Pace. Cannot run while burrowing and may surprise opponents by adding +2 to attack and damage rolls with a successful opposed Stealth vs. Notice roll.",
+            "burrowing": "character.derived.pace.running / 2"
+          },
+          {
+            "value": 2,
+            "name": "Claws (1)",
+            "notes": "The being has claws that cause Strength+d4 damage."
+          },
+          {
+            "value": 3,
+            "name": "Claws (2)",
+            "notes": "The being has claws that cause Strength+d6 damage."
+          },
+          {
+            "value": 3,
+            "name": "Armor Piercing Claws (1)",
+            "notes": "The being has claws that cause Strength+d4 damage and have AP 2."
+          },
+          {
+            "value": 4,
+            "name": "Armor Piercing Claws (2)",
+            "notes": "The being has claws that cause Strength+d6 damage and have AP 2."
+          },
+          {
+            "value": 8,
+            "name": "Construct",
+            "notes": "Constructs are artificial beings made of inorganic material. They add +2 to recover from being Shaken, ignore one level of Wound modifiers, don’t breathe, and are immune to disease and poison."
+          },
+          {
+            "value": 2,
+            "name": "Doesn't Breathe",
+            "notes": "The species does not breathe. Individuals aren’t affected by inhaled toxins, can’t drown, and don’t suffocate in a vacuum."
+          },
+          {
+            "value": 2,
+            "name": "Edge (Novice)",
+            "notes": "All members of this species have an innate Novice Edge chosen from the setting. This ability ignores Edge Requirements except for other edges.",
+            "edges": 1
+          },
+          {
+            "value": 3,
+            "name": "Edge (Seasoned)",
+            "notes": "All members of this species have an innate Seasoned Edge chosen from the setting. This ability ignores Edge Requirements except for other edges.",
+            "edges": 1
+          },
+          {
+            "value": 4,
+            "name": "Edge (Veteran)",
+            "notes": "All members of this species have an innate Veteran Edge chosen from the setting. This ability ignores Edge Requirements except for other edges.",
+            "edges": 1
+          },
+          {
+            "value": 5,
+            "name": "Edge (Heroic)",
+            "notes": "All members of this species have an innate Heroic Edge chosen from the setting. This ability ignores Edge Requirements except for other edges.",
+            "edges": 1
+          },
+          {
+            "value": 1,
+            "name": "Environmental Resistance (1)",
+            "notes": "The species receives a +4 bonus to resist a single negative environmental effect, such as heat, cold, or radiation."
+          },
+          {
+            "value": 2,
+            "name": "Flight (1)",
+            "notes": "The species can fly at Pace 6 and \"run\" for extra movement as usual. Maneuvering uses the Athletics skill. Flight presumes some kind of wings which can be targeted or fouled (a Bound or Entangled character cannot fly).",
+            "flying": 6
+          },
+          {
+            "value": 4,
+            "name": "Flight (2)",
+            "notes": "The species can fly at Pace 12 and \"run\" for extra movement as usual. Maneuvering uses the Athletics skill. Flight presumes some kind of wings which can be targeted or fouled (a Bound or Entangled character cannot fly).",
+            "flying": 12
+          },
+          {
+            "value": 6,
+            "name": "Flight (3)",
+            "notes": "The species can fly at Pace 24 and may \"run\" for 2d6\" of additional movement. Maneuvering uses the Athletics skill. Flight presumes some kind of wings which can be targeted or fouled (a Bound or Entangled character cannot fly).",
+            "flying": 24
+          },
+          {
+            "value": 2,
+            "name": "Hardy",
+            "notes": "A second Shaken result in combat does not cause a Wound."
+          },
+          {
+            "value": 1,
+            "name": "Horns (1)",
+            "notes": "The being has a horn or horns that cause Strength+d4 damage."
+          },
+          {
+            "value": 2,
+            "name": "Horns (2)",
+            "notes": "The being has a horn or horns that cause Strength+d6 damage."
+          },
+          {
+            "value": 1,
+            "name": "Immune to Poison",
+            "notes": "The species is immune to poison."
+          },
+          {
+            "value": 1,
+            "name": "Immune to Disease",
+            "notes": "The species is immune to disease."
+          },
+          {
+            "value": 1,
+            "name": "Infravision",
+            "notes": "The creature \"sees\" heat, halving Illumination penalties when attacking warm targets."
+          },
+          {
+            "value": 2,
+            "name": "Leaper",
+            "notes": "The character can jump twice as far as listed under Movement. Adds +4 to damage when leaping as part of a Wild Attack."
+          },
+          {
+            "value": 1,
+            "name": "Low Light Vision",
+            "notes": "The being ignores penalties for Dim or Dark illumination but not Pitch Darkness."
+          },
+          {
+            "value": 1,
+            "name": "No Vital Organs",
+            "notes": "Called Shots do no extra damage against the species due to hidden or redundant vital organs."
+          },
+          {
+            "value": 2,
+            "name": "Pace",
+            "notes": "The character’s Pace is increased by +2, and their running die is increased by one die type.",
+            "running": 2
+          },
+          {
+            "value": 1,
+            "name": "Parry",
+            "notes": "The creature's natural Parry is increased by +1.",
+            "parry": 1
+          },
+          {
+            "value": 1,
+            "name": "Poisonous Touch (1)",
+            "notes": "With a successful Touch Attack, bite, or claw, the victim must roll Vigor or suffer the effects of Mild Poison."
+          },
+          {
+            "value": 3,
+            "name": "Poisonous Touch (2)",
+            "notes": "The poison can be upgraded to Knockout, Lethal, or Paralyzing instead of Mild Poison, but each use causes the hero Fatigue."
+          },
+          {
+            "value": 2,
+            "name": "Power",
+            "notes": "The species has an innate ability that functions like a power. Individuals have Arcane Background (Gifted) and a power that reflects their unusual ability."
+          },
+          {
+            "value": 1,
+            "name": "Reach",
+            "notes": "Long limbs, tentacles, or similar appendages grant the creature Reach +1."
+          },
+          {
+            "value": 2,
+            "name": "Regeneration (1)",
+            "notes": "The being heals damage quickly. She may make a natural healing roll once per day rather than every five days."
+          },
+          {
+            "value": 3,
+            "name": "Regeneration (2)",
+            "notes": "The being heals damage quickly and may recover from permanent injuries after all other Wounds have healed. Permanent injuries heal at a rate of one injury per week."
+          },
+          {
+            "value": 1,
+            "name": "Size +1",
+            "notes": "The creature is larger than normal. Adds +1 to Toughness and increases maximum Strength one step.",
+            "toughness": 1
+          },
+          {
+            "value": 1,
+            "name": "Skill (1)",
+            "notes": "The character starts with a d4 in a skill inherent to their species or culture.",
+            "skills": 1
+          },
+          {
+            "value": 2,
+            "name": "Skill (2)",
+            "notes": "The character starts with a d6 in a skill inherent to their species or culture, and the skill’s maximum increases to d12+1.",
+            "skills": 2
+          },
+          {
+            "value": 1,
+            "name": "Skill Bonus",
+            "notes": "Biological factors give the species a +1 bonus when using a particular skill. Beings that emit pheromones, for example, might have a +1 bonus to Persuasion.",
+            "skills": 1
+          },
+          {
+            "value": 1,
+            "name": "Sleep Reduction (1)",
+            "notes": "The being needs half the normal amount of sleep as humans."
+          },
+          {
+            "value": 2,
+            "name": "Sleep Reduction (2)",
+            "notes": "The being never sleeps."
+          },
+          {
+            "value": 1,
+            "name": "Toughness",
+            "notes": "The character has hardened skin, scales, or extremely dense tissue that increases their base Toughness by +1.",
+            "toughness": 1
+          },
+          {
+            "value": 1,
+            "name": "Wall Walker",
+            "notes": "The species may walk on vertical surfaces normally, or inverted surfaces at half Pace.",
+            "climb": "character.derived.pace.running"
+          },
+          {
+            "value": -2,
+            "name": "Attribute Penalty (1)",
+            "notes": "One attribute suffers a –1 penalty.",
+            "attributes": -1
+          },
+          {
+            "value": -3,
+            "name": "Attribute Penalty (2)",
+            "notes": "One attribute suffers a –2 penalty.",
+            "attributes": -2
+          },
+          {
+            "value": -2,
+            "name": "Big",
+            "notes": "The race is particularly large in a world where most others aren’t. He subtracts 2 from Trait rolls when using equipment not specifically designed for his race and cannot wear their armor or clothing. Equipment, food, and clothing cost double the listed price."
+          },
+          {
+            "value": -1,
+            "name": "Cannot Speak",
+            "notes": "The species has no vocal cords or cannot form the sounds made by most other beings. He can communicate with members of his own ancestry naturally but not with others unless they take the proper Language skill."
+          },
+          {
+            "value": -2,
+            "name": "Dependency",
+            "notes": "The being must consume or have contact with some sort of relatively common substance for an hour out of every 24. Without it, the character becomes Fatigued each day until Incapacitated, and eventually perishes."
+          },
+          {
+            "value": -1,
+            "name": "Environmental Weakness",
+            "notes": "The species suffers a –4 penalty to resist a particular environmental effect, such as heat or cold. If the being suffers an attack based on that form, the penalty acts as a bonus to damage."
+          },
+          {
+            "value": -1,
+            "name": "Frail",
+            "notes": "The creature is less durable than most. Reduce its Toughness by 1.",
+            "toughness": -1
+          },
+          {
+            "value": -1,
+            "name": "Hindrance (Minor)",
+            "notes": "The being has an inherent Minor Hindrance."
+          },
+          {
+            "value": -2,
+            "name": "Hindrance (Major)",
+            "notes": "The being has an inherent Major Hindrance."
+          },
+          {
+            "value": -1,
+            "name": "Poor Parry",
+            "notes": "These beings are poor melee defenders; –1 Parry.",
+            "parry": -1
+          },
+          {
+            "value": -1,
+            "name": "Ancestral Enemy",
+            "notes": "This species dislikes another species common to the setting. They suffer a –2 penalty to Persuasion rolls when dealing with their rivals and may become hostile with little provocation."
+          },
+          {
+            "value": -1,
+            "name": "Reduced Core Skills",
+            "notes": "This species starts with one less core skill. The skill may be gained normally but does not start at a d4.",
+            "skills": -1
+          },
+          {
+            "value": -1,
+            "name": "Reduced Pace (1)",
+            "notes": "Reduce Pace by 1 and the running die a die type (d4 is reduced to d4–1).",
+            "running": -1
+          },
+          {
+            "value": -2,
+            "name": "Reduced Pace (2)",
+            "notes": "Reduce Pace by 3 and subtract 2 from Athletics and rolls to resist Athletics where movement and mobility are integral.",
+            "running": -3,
+            "skills": -2
+          },
+          {
+            "value": -1,
+            "name": "Size –1",
+            "notes": "The entity is smaller than average, reducing its Size and Toughness by 1.",
+            "toughness": -1
+          },
+          {
+            "value": -1,
+            "name": "Skill Penalty (1)",
+            "notes": "The species suffers a –1 penalty to a very commonly used skill.",
+            "skills": -1
+          },
+          {
+            "value": -2,
+            "name": "Skill Penalty (2)",
+            "notes": "The species suffers a –2 penalty to a very commonly used skill.",
+            "skills":-2
+          }
+
+        ]
+    }

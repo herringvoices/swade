@@ -1,0 +1,368 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    font-family: impact;
+    background: linear-gradient(to right, #EFD6E0, #D8F3FE);
+}
+h2 {
+    font-weight: normal;
+}
+.pink-box {
+    background-color: #EFD6E0;
+    width: 450px; /* Adjust the width as needed */
+    border: 2px solid; /* Adjust the border color if needed */
+    border-radius: 15px;
+    margin: 1em;
+    overflow: hidden;
+}
+
+.pink-box h2 {
+    background-color: #ff1493; /* Pink color */
+    color: white;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.5em; /* Adjust font size if needed */
+    position: relative;
+}
+.pink-box h3 {
+    background-color: white; /* white color */
+    color: black;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.5em; /* Adjust font size if needed */
+    position: relative;
+}
+
+.blue-box {
+    background-color: #D8F3FE;
+    width: 450px; /* Adjust the width as needed */
+    border: 2px solid; /* Adjust the border color if needed */
+    border-radius: 15px;
+    margin: 1em;
+    overflow: hidden;
+}
+
+.blue-box h2 {
+    background-color: #3AC1FA; /* Blue color */
+    color: black;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.5em; /* Adjust font size if needed */
+    
+    position: relative;
+}
+
+.mini-blue {
+    background-color: #D8F3FE;
+    width: 350px; /* Adjust the width as needed */
+    border: 2px solid; /* Adjust the border color if needed */
+    border-radius: 15px;
+    margin: 1em;
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+.mini-blue h4 {
+    background-color: #3AC1FA; /* Blue color */
+    color: black;
+    font-weight: normal;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.mini-blue p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+
+}
+
+.mini-pink {
+    background-color: #D8F3FE;
+    width: 350px; /* Adjust the width as needed */
+    border: 2px solid; /* Adjust the border color if needed */
+    border-radius: 15px;
+    margin: 1em;
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+.mini-pink h4 {
+    background-color: #3AC1FA; /* Blue color */
+    color: black;
+    font-weight: normal;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.mini-pink p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+
+}
+
+.circle-number-empty {
+    background-color: #ffe4e1; /* Light pink background */
+    color: black;
+    border-radius: 50%;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: .75em;
+    margin-left: 10px;
+    vertical-align: middle;
+    border: 2px solid black;
+}
+
+.circle-number-full {
+    background-color: #FFEB3B; /* Yellow background */
+    color: black;
+    border-radius: 50%;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    font-size: .75em;
+    margin-left: 10px;
+    vertical-align: middle;
+    border: 2px solid black;
+}
+
+.pill-initials {
+    background-color: white;
+    color: #93456B;
+    padding: 2px 10px;
+    width: 1em;
+    font-size: 1.5em; /* Adjust font size if needed */
+    text-align: center;
+    
+}
+
+.blue-pill {
+    display: inline-flex;
+    align-items: center;
+    border: 2px solid black; /* Adjust border color if needed */
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    height: 2em;
+    margin: 5px;
+}
+
+.blue-label {
+    background-color: #3AC1FA; /* Blue background */
+    color: black;
+    padding: 2px 10px;
+    width: 4.5em;
+    font-size: 1.5em; /* Adjust font size if needed */
+    text-align: center;
+}
+
+.blue-pill-input {
+    background-color: #f5f5f5; /* Light gray background */
+    border: none;
+    padding: 1px;
+    font-size: 1em;
+    text-align: right;
+    width: 95px;
+    margin-right: 10px;
+ 
+}
+
+.blue-pill-input:focus {
+    outline: none; /* Removes the default outline on focus */
+}
+
+.pink-pill {
+    display: inline-flex;
+    align-items: center;
+    border: 2px solid black; /* Adjust border color if needed */
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    height: 2em;
+    margin: 5px;
+}
+
+.pink-label {
+    background-color: #ff1493; /* Blue background */
+    color: white;
+    width: 9em;
+    padding: 2px 10px;
+    font-size: 1.5em; /* Adjust font size if needed */
+    text-align: center;
+}
+
+.pink-pill-input {
+    background-color: #f5f5f5; /* Light gray background */
+    border: none;
+    padding: 1px;
+    font-size: 1em;
+    text-align: right;
+    width: 50px;
+    margin-right: 10px;
+ 
+}
+
+.pink-pill-input:focus {
+    outline: none; /* Removes the default outline on focus */
+}
+
+.incriment-controls {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .incriment-button {
+    background-color: #3AC1FA;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 4px;
+    cursor: pointer;
+    width: 30px;
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .incriment-button.plus {
+    background-color: #3AC1FA;
+    
+  }
+  
+  .incriment-button.minus {
+    background-color: #ff1493;
+  }
+  
+  .incriment-button:hover {
+    background-color: #666666;
+  }
+  
+
+  .advance-button {
+    background-color: #FFEB3B; /* Yellow background */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #0B0B0B; /* Black text */
+    font-size: 16px;
+    border: 2px solid;
+    border-radius: 25px; /* Rounded edges */
+    padding: 5px 15px; /* Padding inside the button */
+    cursor: pointer;
+    width: 400px;
+    margin: 5px auto;
+    display: block;
+  }
+  
+  .advance-button:hover {
+    background-color: #FDD835; /* Slightly darker yellow on hover */
+  }
+
+  .advance-button:focus {
+    outline: none; /* Removes the default focus outline */
+  }
+
+  .add-button {
+    background-color: #3AC1FA; /* Yellow background */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #0B0B0B; /* Black text */
+    font-size: 16px;
+    border: 2px solid;
+    border-radius: 25px; /* Rounded edges */
+    padding: 5px 15px; /* Padding inside the button */
+    cursor: pointer;
+    width: 90%;
+    margin: 5px auto;
+    display: block;
+  }
+  
+  .add-button:hover {
+    background-color: #666666; /* Slightly darker yellow on hover */
+   
+  }
+  
+  .delete-button {
+    background-color: #ff1493; /* Pink background color */
+    font-weight: bolder;
+    border: 2px solid black; /* Black border */
+    color: black; /* Black text color */
+    font-family: Arial, sans-serif; /* Font style */
+    font-size: 16px; /* Font size */
+    width: 24px; /* Set width to create a circular shape */
+    height: 24px; /* Set height to create a circular shape */
+    border-radius: 50%; /* Make the button round */
+    display: inline-flex; /* Use flexbox for centering */
+    align-items: center; /* Center the text vertically */
+    justify-content: center; /* Center the text horizontally */
+    padding: 0; /* Remove padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    line-height: 1; /* Ensure text is vertically centered */
+    vertical-align: middle;
+}
+
+/* HIDDEN EDGES */
+
+.hidden-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+    z-index: 1001;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+.hidden-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+#edges-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#edges-list li {
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+#edges-list li:hover {
+    background-color: #e0e0e0;
+}

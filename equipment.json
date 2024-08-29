@@ -1,0 +1,285 @@
+{
+    "edges":[
+    {
+      "name": "Jacket (Cloth/Light Leather)",
+      "type": "Armor",
+      "armor": 1,
+      "notes": "Covers torso and arms.",
+      "parry": 0
+    },
+    {
+      "name": "Robes (Cloth/Light Leather)",
+      "type": "Armor",
+      "armor": 1,
+      "notes": "Covers torso, arms, and legs.",
+      "parry": 0
+    },
+    {
+      "name": "Leggings (Cloth/Light Leather)",
+      "type": "Armor",
+      "armor": 1,
+      "notes": "Covers legs.",
+      "parry": 0
+    },
+    {
+      "name": "Cap (Cloth/Light Leather)",
+      "type": "Armor",
+      "armor": 1,
+      "notes": "Covers head.",
+      "parry": 0
+    },
+    {
+      "name": "Jacket (Thick Leather)",
+      "type": "Armor",
+      "armor": 2,
+      "notes": "Covers torso and arms.",
+      "parry": 0
+    },
+    {
+      "name": "Leggings (Thick Leather)",
+      "type": "Armor",
+      "armor": 2,
+      "notes": "Covers legs.",
+      "parry": 0
+    },
+    {
+      "name": "Cap (Thick Leather)",
+      "type": "Armor",
+      "armor": 2,
+      "notes": "Covers head.",
+      "parry": 0
+    },
+    {
+      "name": "Shirt (Chain Mail)",
+      "type": "Armor",
+      "armor": 3,
+      "notes": "Covers torso and arms.",
+      "parry": 0
+    },
+    {
+      "name": "Leggings (Chain Mail)",
+      "type": "Armor",
+      "armor": 3,
+      "notes": "Covers legs.",
+      "parry": 0
+    },
+    {
+      "name": "Chain Hood or Helm",
+      "type": "Armor",
+      "armor": 3,
+      "notes": "Covers head.",
+      "parry": 0
+    },
+    {
+      "name": "Bronze Corselet",
+      "type": "Armor",
+      "armor": 3,
+      "notes": "Covers torso.",
+      "parry": 0
+    },
+    {
+      "name": "Vambraces (Bronze)",
+      "type": "Armor",
+      "armor": 3,
+      "notes": "Covers arms.",
+      "parry": 0
+    },
+    {
+      "name": "Greaves (Bronze)",
+      "type": "Armor",
+      "armor": 3,
+      "notes": "Covers legs.",
+      "parry": 0
+    },
+    {
+      "name": "Bronze Helmet",
+      "type": "Armor",
+      "armor": 3,
+      "notes": "Covers head.",
+      "parry": 0
+    },
+    {
+      "name": "Corselet (Plate Mail)",
+      "type": "Armor",
+      "armor": 4,
+      "notes": "Covers torso.",
+      "parry": 0
+    },
+    {
+      "name": "Vambraces (Plate Mail)",
+      "type": "Armor",
+      "armor": 4,
+      "notes": "Covers arms.",
+      "parry": 0
+    },
+    {
+      "name": "Greaves (Plate Mail)",
+      "type": "Armor",
+      "armor": 4,
+      "notes": "Covers legs.",
+      "parry": 0
+    },
+    {
+      "name": "Heavy Helm",
+      "type": "Armor",
+      "armor": 4,
+      "notes": "Covers head.",
+      "parry": 0
+    },
+    {
+      "name": "Heavy Helm, Enclosed",
+      "type": "Armor",
+      "armor": 4,
+      "notes": "-1 to vision-based Notice rolls. Covers head.",
+      "parry": 0
+    },
+    {
+        "name": "Leather Riding Chaps",
+        "type": "Armor",
+        "armor": 1,
+        "notes": "Covers legs.",
+        "parry": 0
+      },
+      {
+        "name": "Kevlar Riding Jacket",
+        "type": "Armor",
+        "armor": 2,
+        "notes": "Covers torso and arms.",
+        "parry": 0
+      },
+      {
+        "name": "Kevlar Riding Jeans",
+        "type": "Armor",
+        "armor": 2,
+        "notes": "Covers legs.",
+        "parry": 0
+      },
+      {
+        "name": "Bike Helmet",
+        "type": "Armor",
+        "armor": 2,
+        "notes": "Covers head.",
+        "parry": 0
+      },
+      {
+        "name": "Motorcycle Helmet",
+        "type": "Armor",
+        "armor": 3,
+        "notes": "Covers head.",
+        "parry": 0
+      },
+      {
+        "name": "Flak Jacket",
+        "type": "Armor",
+        "armor": 2,
+        "notes": "Covers torso. Bulletproof for -4 bullet damage.",
+        "parry": 0
+      },
+      {
+        "name": "Kevlar Vest",
+        "type": "Armor",
+        "armor": 2,
+        "notes": "Covers torso. Bulletproof for -4 bullet damage.",
+        "parry": 0
+      },
+      {
+        "name": "Kevlar Vest with Ceramic Inserts",
+        "type": "Armor",
+        "armor": 4,
+        "notes": "Covers torso. Bulletproof for -4 bullet damage.",
+        "parry": 0
+      },
+      {
+        "name": "Kevlar Helmet",
+        "type": "Armor",
+        "armor": 4,
+        "notes": "Covers head. Bulletproof for -4 bullet damage.",
+        "parry": 0
+      },
+      {
+        "name": "Bombproof Suit",
+        "type": "Armor",
+        "armor": 10,
+        "notes": "Covers entire body. Reduces Agility-based skills to d6 and Pace by 2.",
+        "parry": 0
+      },
+      {
+        "name": "Body Armor",
+        "type": "Armor",
+        "armor": 4,
+        "notes": "Light armor made from advanced materials. Bulletproof for -4 bullet damage.",
+        "parry": 0
+      },
+      {
+        "name": "Infantry Battle Suit",
+        "type": "Armor",
+        "armor": 6,
+        "notes": "Full suit covering torso, arms, and legs. Bulletproof for -4 bullet damage.",
+        "parry": 0
+      },
+      {
+        "name": "Battle Helmet",
+        "type": "Armor",
+        "armor": 6,
+        "notes": "Covers head and full face. Bulletproof for -4 bullet damage.",
+        "parry": 0
+      },
+      {
+        "name": "Small Shield",
+        "type": "Shield",
+        "armor": 2,
+        "parry": 1,
+        "notes": "Provides +2 armor and +1 Parry."
+      },
+      {
+        "name": "Medium Shield",
+        "type": "Shield",
+        "armor": 2,
+        "parry": 2,
+        "notes": "Provides +2 armor and +2 Parry."
+      },
+      {
+        "name": "Large Shield",
+        "type": "Shield",
+        "armor": 2,
+        "parry": 3,
+        "notes": "Provides +2 armor and +3 Parry."
+      },
+      {
+        "name": "Riot Shield",
+        "type": "Shield",
+        "armor": 2,
+        "parry": 3,
+        "notes": "Reduces damage from firearms by 4."
+      },
+      {
+        "name": "Ballistic Shield",
+        "type": "Shield",
+        "armor": 4,
+        "parry": 3,
+        "notes": "Reduces damage from firearms by 4."
+      },
+      {
+        "name": "Polymer Shield, Small",
+        "type": "Shield",
+        "armor": 4,
+        "parry": 1,
+        "notes": "Reduces damage from firearms by 4."
+      },
+      {
+        "name": "Polymer Shield, Medium",
+        "type": "Shield",
+        "armor": 4,
+        "parry": 2,
+        "notes": "Reduces damage from firearms by 4."
+      },
+      {
+        "name": "Polymer Shield, Large",
+        "type": "Shield",
+        "armor": 4,
+        "parry": 3,
+        "notes": "Reduces damage from firearms by 4."
+      }
+
+]
+}

@@ -1,0 +1,428 @@
+{
+    "hindrances": [
+{
+    "name": "All Thumbs",
+    "type": "Minor",
+    "description": "–2 to use mechanical or electrical devices."
+  },
+  {
+    "name": "Anemic",
+    "type": "Minor",
+    "description": "–2 Vigor when resisting Fatigue."
+  },
+  {
+    "name": "Arrogant",
+    "type": "Major",
+    "description": "Likes to dominate opponents and challenge the most powerful foe in combat."
+  },
+  {
+    "name": "Bad Eyes",
+    "type": "Minor",
+    "description": "–1 to all Trait rolls dependent on vision. Eyewear negates penalty but may break during trauma."
+  },
+  {
+    "name": "Bad Eyes",
+    "type": "Major",
+    "description": "–2 to all Trait rolls dependent on vision. Eyewear negates penalty but may break during trauma."
+  },
+  {
+    "name": "Bad Luck",
+    "type": "Major",
+    "description": "The character starts with one less Benny per session."
+  },
+  {
+    "name": "Big Mouth",
+    "type": "Minor",
+    "description": "Unable to keep secrets and constantly gives away private information."
+  },
+  {
+    "name": "Blind",
+    "type": "Major",
+    "description": "–6 to all tasks requiring vision."
+  },
+  {
+    "name": "Bloodthirsty",
+    "type": "Major",
+    "description": "Never takes prisoners."
+  },
+  {
+    "name": "Can't Swim",
+    "type": "Minor",
+    "description": "–2 to swimming rolls; each inch moved in water costs 3 inches of Pace.",
+    "swimming": "character.derived.pace.running / 3"
+  },
+  {
+    "name": "Cautious",
+    "type": "Minor",
+    "description": "The character plans extensively and/or is overly careful."
+  },
+  {
+    "name": "Clueless",
+    "type": "Major",
+    "description": "–1 to Common Knowledge and Notice rolls.",
+    "skills": -2
+  },
+  {
+    "name": "Clumsy",
+    "type": "Major",
+    "description": "–2 to Athletics and Stealth rolls.",
+    "skills": -4
+  },
+  {
+    "name": "Code of Honor",
+    "type": "Major",
+    "description": "The character keeps his word and acts like a gentleman."
+  },
+  {
+    "name": "Curious",
+    "type": "Major",
+    "description": "The character wants to know about everything."
+  },
+  {
+    "name": "Death Wish",
+    "type": "Minor",
+    "description": "The hero wants to die after or while completing some epic task."
+  },
+  {
+    "name": "Delusional",
+    "type": "Minor",
+    "description": "The individual believes something strange that causes him occasional trouble."
+  },
+  {
+    "name": "Delusional",
+    "type": "Major",
+    "description": "The individual believes something strange that causes him frequent trouble."
+  },
+  {
+    "name": "Driven",
+    "type": "Minor",
+    "description": "The hero's actions are driven by some important goal or belief."
+  },
+  {
+    "name": "Driven",
+    "type": "Major",
+    "description": "The hero's actions are strongly driven by an important goal or belief."
+  },
+  {
+    "name": "Elderly",
+    "type": "Major",
+    "description": "–1 to Pace, running, Agility, Strength, and Vigor. Hero gains 5 extra skill points.",
+    "running": -1,
+    "attributes": -3,
+    "skills": 5
+  },
+  {
+    "name": "Enemy",
+    "type": "Minor",
+    "description": "The character has a recurring nemesis."
+  },
+  {
+    "name": "Enemy",
+    "type": "Major",
+    "description": "The character has a dangerous recurring nemesis."
+  },
+  {
+    "name": "Greedy",
+    "type": "Minor",
+    "description": "The individual is obsessed with wealth and material possessions."
+  },
+  {
+    "name": "Greedy",
+    "type": "Major",
+    "description": "The individual is driven by an obsession with wealth and material possessions."
+  },
+  {
+    "name": "Habit",
+    "type": "Minor",
+    "description": "Addicted to something, suffers Fatigue if deprived."
+  },
+  {
+    "name": "Habit",
+    "type": "Major",
+    "description": "Strongly addicted, suffers severe Fatigue if deprived."
+  },
+  {
+    "name": "Hard of Hearing",
+    "type": "Minor",
+    "description": "–4 to Notice rolls involving sound."
+  },
+  {
+    "name": "Hard of Hearing",
+    "type": "Major",
+    "description": "Automatic failure on sound-based Notice rolls."
+  },
+  {
+    "name": "Heroic",
+    "type": "Major",
+    "description": "The character always helps those in need."
+  },
+  {
+    "name": "Hesitant",
+    "type": "Minor",
+    "description": "Draw two Action Cards and take the lowest, except for Jokers."
+  },
+  {
+    "name": "Illiterate",
+    "type": "Minor",
+    "description": "The character cannot read or write."
+  },
+  {
+    "name": "Impulsive",
+    "type": "Major",
+    "description": "The hero leaps before he looks."
+  },
+  {
+    "name": "Jealous",
+    "type": "Minor",
+    "description": "The individual covets what others have."
+  },
+  {
+    "name": "Jealous",
+    "type": "Major",
+    "description": "The individual is driven by extreme envy and covets what others have."
+  },
+  {
+    "name": "Loyal",
+    "type": "Minor",
+    "description": "The hero is loyal to his friends and allies."
+  },
+  {
+    "name": "Loyal",
+    "type": "Minor",
+    "description": "The hero is loyal to his friends and allies."
+  },
+  {
+    "name": "Mean",
+    "type": "Minor",
+    "description": "–1 to Persuasion rolls.",
+    "skills": -1
+  },
+  {
+    "name": "Mild Mannered",
+    "type": "Minor",
+    "description": "–2 to Intimidation rolls.",
+    "skills": -2
+  },
+  {
+    "name": "Mute",
+    "type": "Major",
+    "description": "The hero cannot speak."
+  },
+  {
+    "name": "Obese",
+    "type": "Minor",
+    "description": "Size +1, Pace –1, running die is d4. Strength is treated as one die type lower for minimum Strength requirements.",
+    "running": -1,
+    "attributes": -1
+  },
+  {
+    "name": "Obligation",
+    "type": "Minor",
+    "description": "The character has a weekly obligation of 20 hours."
+  },
+  {
+    "name": "Obligation",
+    "type": "Major",
+    "description": "The character has a weekly obligation of 40 hours."
+  },
+  {
+    "name": "One Arm",
+    "type": "Major",
+    "description": "–4 to tasks (such as Athletics) that require two hands."
+  },
+  {
+    "name": "One Eye",
+    "type": "Major",
+    "description": "–2 to actions at 5 inches (10 yards) or more distance."
+  },
+  {
+    "name": "Outsider",
+    "type": "Minor",
+    "description": "The character doesn’t fit in to the local environment and subtracts 2 from Persuasion rolls.",
+    "skills": -2
+  },
+  {
+    "name": "Outsider",
+    "type": "Major",
+    "description": "The character doesn’t fit in to the local environment, subtracts 2 from Persuasion rolls, and has no legal rights or other serious consequences.",
+    "skills": -2
+  },
+  {
+    "name": "Overconfident",
+    "type": "Major",
+    "description": "The hero believes she can do anything."
+  },
+  {
+    "name": "Pacifist",
+    "type": "Minor",
+    "description": "Fights only in self-defense."
+  },
+  {
+    "name": "Pacifist",
+    "type": "Major",
+    "description": "Won’t fight at all."
+  },
+  {
+    "name": "Phobia",
+    "type": "Minor",
+    "description": "The character is afraid of something, and subtracts –1 from all Trait rolls in its presence."
+  },
+  {
+    "name": "Phobia",
+    "type": "Major",
+    "description": "The character is afraid of something, and subtracts –2 from all Trait rolls in its presence."
+  },
+  {
+    "name": "Poverty",
+    "type": "Minor",
+    "description": "Half starting funds and the character is always broke."
+  },
+  {
+    "name": "Quirk",
+    "type": "Minor",
+    "description": "The individual has some minor but persistent foible that often annoys others."
+  },
+  {
+    "name": "Ruthless",
+    "type": "Minor",
+    "description": "The character does what it takes to get her way."
+  },
+  {
+    "name": "Ruthless",
+    "type": "Major",
+    "description": "The character is willing to do whatever it takes to get her way, including physical harm."
+  },
+  {
+    "name": "Secret",
+    "type": "Minor",
+    "description": "The hero has a dark secret of some kind."
+  },
+  {
+    "name": "Secret",
+    "type": "Major",
+    "description": "The hero has a dark secret that could cause serious consequences if revealed."
+  },
+  {
+    "name": "Shamed",
+    "type": "Minor",
+    "description": "The individual is haunted by some tragic event from her past."
+  },
+  {
+    "name": "Shamed",
+    "type": "Major",
+    "description": "The individual is deeply haunted by some tragic event from her past."
+  },
+  {
+    "name": "Slow",
+    "type": "Minor",
+    "description": "Pace –1, reduce running die one step.",
+    "running": -1
+  },
+  {
+    "name": "Slow",
+    "type": "Major",
+    "description": "Pace –2, –2 to Athletics and rolls to resist Athletics. Cannot take the Fleet-Footed Edge.",
+    "running": -2,
+    "skills": -2
+  },
+  {
+    "name": "Small",
+    "type": "Minor",
+    "description": "Size and Toughness are reduced by 1. Size cannot be reduced below –1.",
+    "toughness": -1
+  },
+  {
+    "name": "Stubborn",
+    "type": "Minor",
+    "description": "The character wants his way and rarely admits his mistakes."
+  },
+  {
+    "name": "Suspicious",
+    "type": "Minor",
+    "description": "The individual is paranoid."
+  },
+  {
+    "name": "Suspicious",
+    "type": "Major",
+    "description": "The individual is highly paranoid, causing allies to subtract 2 when rolling to Support him."
+  },
+  {
+    "name": "Thin Skinned",
+    "type": "Minor",
+    "description": "The character subtracts two when resisting Taunt attacks."
+  },
+  {
+    "name": "Thin Skinned",
+    "type": "Major",
+    "description": "The character subtracts four when resisting Taunt attacks."
+  },
+  {
+    "name": "Timid",
+    "type": "Major",
+    "description": "–2 to Fear checks and resisting Intimidation."
+  },
+  {
+    "name": "Tongue-Tied",
+    "type": "Major",
+    "description": "The character often misspeaks or can’t get her words out. –1 to Intimidation, Persuasion, and Taunt rolls.",
+    "skills": -3
+  },
+  {
+    "name": "Ugly",
+    "type": "Minor",
+    "description": "The character is physically unattractive and subtracts 1 from Persuasion rolls.",
+    "skills": -1
+  },
+  {
+    "name": "Ugly",
+    "type": "Major",
+    "description": "The character is very unattractive and subtracts 2 from Persuasion rolls.",
+    "skills": -2
+  },
+  {
+    "name": "Vengeful",
+    "type": "Minor",
+    "description": "The adventurer seeks payback for slights against her."
+  },
+  {
+    "name": "Vengeful",
+    "type": "Major",
+    "description": "The adventurer seeks physical harm as payback for slights against her."
+  },
+  {
+    "name": "Vow",
+    "type": "Minor",
+    "description": "The individual has pledged himself to some cause."
+  },
+  {
+    "name": "Vow",
+    "type": "Major",
+    "description": "The individual has pledged himself to some cause and is willing to go to great lengths for it."
+  },
+  {
+    "name": "Wanted",
+    "type": "Minor",
+    "description": "The character is wanted by the authorities."
+  },
+  {
+    "name": "Wanted",
+    "type": "Major",
+    "description": "The character is wanted by the authorities for serious crimes."
+  },
+  {
+    "name": "Young",
+    "type": "Minor",
+    "description": "The character has 4 attribute points and 10 skill points, with an extra Benny per session.",
+    "attributes": -1,
+    "skills": -2
+  },
+  {
+    "name": "Young",
+    "type": "Major",
+    "description": "The character has 3 attribute points and 10 skill points, with two extra Bennies per session.",
+    "attributes": -2,
+    "skills": -2
+  }
+
+]
+}
