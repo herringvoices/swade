@@ -226,39 +226,44 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Add selected edge to the #edges container
     edgesList.addEventListener('click', function (e) {
-        if (e.target.tagName === 'LI') {
-            const edgeName = e.target.textContent;
-            const edgeDescription = e.target.dataset.description;
-
-            const edgeDiv = document.createElement('div');
-            edgeDiv.className = 'mini-blue';
-
-            edgeDiv.innerHTML = `
-                <h4>${edgeName}</h4>
-                <p>${edgeDescription}</p>
-                <div style="text-align: center; margin: 3px;">
-                    <button class="delete-button">X</button>
-                </div>`;
-
-            edgesContainer.appendChild(edgeDiv);
-
+        if (e.target.tagName === 'LI' && character.points.edge > 0) {
+            const edge = JSON.parse(e.target.dataset.edge);
+            
+            // Find the edge in the character.edges array and mark it as selected
+            const edgeToSelect = character.edges.find(e => e.name === edge.name);
+            if (edgeToSelect) {
+                edgeToSelect.selected = true;
+            }
+    
             // Decrease edge points by 1
             character.points.edge -= 1;
             updateEdgePoints();
-
-            // Hide the modal after selection
-            edgesModal.style.display = 'none';
-            modalOverlay.style.display = 'none';
+    
+            updateCharacterSheetUI();  // Update the UI to reflect changes
+    
+            saveCharacterToFile();  // Save the character state after the change
         }
     });
 
     // Allow deletion of edges
     edgesContainer.addEventListener('click', function (e) {
         if (e.target.classList.contains('delete-button')) {
-            e.target.closest('.mini-blue').remove();
+            const edgeDiv = e.target.closest('.mini-blue');
+            const edgeName = edgeDiv.querySelector('h4').textContent;
+    
+            // Find the edge in the character.edges array and mark it as not selected
+            const edgeToDeselect = character.edges.find(e => e.name === edgeName);
+            if (edgeToDeselect) {
+                edgeToDeselect.selected = false;
+            }
+    
             // Increase edge points by 1
             character.points.edge += 1;
             updateEdgePoints();
+    
+            updateCharacterSheetUI();  // Update the UI to reflect changes
+    
+            saveCharacterToFile();  // Save the character state after the change
         }
     });
 });
@@ -278,6 +283,7 @@ function saveCharacterToFile() {
 
     URL.revokeObjectURL(url); // Clean up the URL object
 }
+
 
 // Example button to trigger saving the file
 const saveButton = document.getElementById('save-character');
@@ -303,19 +309,33 @@ loadInput.addEventListener('change', loadCharacterFromFile);
 function updateCharacterSheetUI() {
     updateEdgePoints();  // Update edge points display
 
-    // Clear and repopulate edges
-    edgesContainer.innerHTML = ''; // Clear existing edges
+    // Clear and repopulate selected edges
+    edgesContainer.innerHTML = ''; // Clear existing selected edges
     character.edges.forEach(edge => {
-        const edgeDiv = document.createElement('div');
-        edgeDiv.className = 'mini-blue';
+        if (edge.selected) {
+            const edgeDiv = document.createElement('div');
+            edgeDiv.className = 'mini-blue';
 
-        edgeDiv.innerHTML = `
-            <h4>${edge.name}</h4>
-            <p>${edge.description}</p>
-            <div style="text-align: center; margin: 3px;">
-                <button class="delete-button">X</button>
-            </div>`;
+            edgeDiv.innerHTML = `
+                <h4>${edge.name}</h4>
+                <p>${edge.description}</p>
+                <div style="text-align: center; margin: 3px;">
+                    <button class="delete-button">X</button>
+                </div>`;
 
-        edgesContainer.appendChild(edgeDiv);
+            edgesContainer.appendChild(edgeDiv);
+        }
+    });
+
+    // Clear and repopulate edges-list
+    const edgesList = document.getElementById('edges-list');
+    edgesList.innerHTML = ''; // Clear existing list
+    character.edges.forEach(edge => {
+        if (!edge.selected) {
+            const li = document.createElement('li');
+            li.textContent = edge.name;
+            li.dataset.edge = JSON.stringify(edge); // Store the entire edge object as a JSON string
+            edgesList.appendChild(li);
+        }
     });
 }
